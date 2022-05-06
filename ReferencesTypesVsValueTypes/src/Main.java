@@ -30,8 +30,6 @@ public class Main {
 
         System.out.println("after modify myIntArray= " + Arrays.toString(myIntArray));
         System.out.println("after modify anotherArray= " + Arrays.toString(anotherArray));
-
-
     }
 
     private static void modifyArray(int[] array){
