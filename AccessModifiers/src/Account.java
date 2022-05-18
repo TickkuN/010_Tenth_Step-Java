@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Account {
-    private String accountName;
-    private int balance = 0;
-    private ArrayList<Integer> transactions;
+    public String accountName;
+    public int balance = 0;
+    public ArrayList<Integer> transactions;
 
     public Account(String accountName) {
         this.accountName = accountName;
